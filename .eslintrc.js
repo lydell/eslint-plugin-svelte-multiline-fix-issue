@@ -8,7 +8,8 @@ module.exports = {
     browser: true
   },
   plugins: [
-    'svelte3'
+    'svelte3',
+    'simple-import-sort'
   ],
   overrides: [
     {
@@ -17,7 +18,8 @@ module.exports = {
     }
   ],
   rules: {
-    curly: "error"
+    curly: 'error',
+    'simple-import-sort/imports': 'error'
   },
   settings: {
     // ...

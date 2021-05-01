@@ -2,6 +2,7 @@
   "private": true,
   "dependencies": {
     "eslint": "^7.25.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-svelte": "^1.1.2",
     "svelte": "^3.38.1"
   }
