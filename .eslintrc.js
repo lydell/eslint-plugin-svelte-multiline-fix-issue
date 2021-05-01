@@ -19,6 +19,7 @@ module.exports = {
   ],
   rules: {
     curly: 'error',
+    quotes: ['error', 'single'],
     'simple-import-sort/imports': 'error'
   },
   settings: {
